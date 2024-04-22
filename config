@@ -37,7 +37,11 @@ exec --no-startup-id nm-applet
 exec --no-startup-id feh
 exec picom
 
-exec feh --bg-scale -z /home/nathanda95/Images/
+#pour fond d'ecran unique
+#exec feh --bg-scale /home/nathanda95/Images/chica.png
+
+#pour le fond d'ecran animé
+exec ~/wallpaper.sh
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
